@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  var player1 = new Player()
   $(document).on('keypress', function(event){
     if(event.which == 113){
       $('#player1_strip td.active').next().addClass("active").prev().removeClass('active');
